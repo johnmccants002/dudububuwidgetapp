@@ -11,7 +11,63 @@
 		310800792ADFD62000853B26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310800782ADFD62000853B26 /* ContentView.swift */; };
 		3108007B2ADFD62200853B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3108007A2ADFD62200853B26 /* Assets.xcassets */; };
 		3108007E2ADFD62200853B26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3108007D2ADFD62200853B26 /* Preview Assets.xcassets */; };
+		3108008B2ADFD72E00853B26 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3108008A2ADFD72E00853B26 /* WidgetKit.framework */; };
+		3108008D2ADFD72E00853B26 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3108008C2ADFD72E00853B26 /* SwiftUI.framework */; };
+		310800902ADFD72E00853B26 /* DuduBubuWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108008F2ADFD72E00853B26 /* DuduBubuWidgetBundle.swift */; };
+		310800922ADFD72E00853B26 /* DuduBubuWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310800912ADFD72E00853B26 /* DuduBubuWidgetLiveActivity.swift */; };
+		310800942ADFD72E00853B26 /* DuduBubuWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310800932ADFD72E00853B26 /* DuduBubuWidget.swift */; };
+		310800972ADFD73100853B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310800962ADFD73100853B26 /* Assets.xcassets */; };
+		310800992ADFD73100853B26 /* DuduBubuWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 310800952ADFD72F00853B26 /* DuduBubuWidget.intentdefinition */; };
+		3108009A2ADFD73100853B26 /* DuduBubuWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 310800952ADFD72F00853B26 /* DuduBubuWidget.intentdefinition */; };
+		3108009D2ADFD73100853B26 /* DuduBubuWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 310800882ADFD72E00853B26 /* DuduBubuWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		310800A32ADFDD9900853B26 /* ImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310800A22ADFDD9900853B26 /* ImageSlider.swift */; };
+		310800A52ADFDF2100853B26 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310800A42ADFDF2100853B26 /* SignUpView.swift */; };
+		310800A72ADFDF3200853B26 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310800A62ADFDF3200853B26 /* LoginView.swift */; };
+		310800AB2AE00BBC00853B26 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310800AA2AE00BBC00853B26 /* DataService.swift */; };
+		310800AD2AE279F500853B26 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 310800AC2AE279F500853B26 /* GoogleService-Info.plist */; };
+		310800AE2AE279F500853B26 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 310800AC2AE279F500853B26 /* GoogleService-Info.plist */; };
+		310800B22AE27D6100853B26 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 310800B12AE27D6100853B26 /* FirebaseAnalytics */; };
+		310800B42AE27D6100853B26 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 310800B32AE27D6100853B26 /* FirebaseAnalyticsSwift */; };
+		310800B62AE27D6100853B26 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 310800B52AE27D6100853B26 /* FirebaseAuth */; };
+		310800B82AE27D6100853B26 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 310800B72AE27D6100853B26 /* FirebaseDatabase */; };
+		310800BA2AE27D6100853B26 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 310800B92AE27D6100853B26 /* FirebaseFirestore */; };
+		310800BC2AE27D6100853B26 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 310800BB2AE27D6100853B26 /* FirebaseFirestoreSwift */; };
+		310800BE2AE27D6100853B26 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 310800BD2AE27D6100853B26 /* FirebaseFunctions */; };
+		310800C02AE27D6100853B26 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 310800BF2AE27D6100853B26 /* FirebaseMessaging */; };
+		310800C22AE27D6100853B26 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 310800C12AE27D6100853B26 /* FirebaseStorage */; };
+		310800C52AE2814800853B26 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310800C42AE2814700853B26 /* AuthViewModel.swift */; };
+		310800C82AE281DB00853B26 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310800C72AE281DB00853B26 /* User.swift */; };
+		310800CB2AE288F900853B26 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310800CA2AE288F900853B26 /* MainScreen.swift */; };
+		31326EBF2AE30D5F00DC6E76 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31326EBE2AE30D5F00DC6E76 /* Settings.swift */; };
+		31326EC12AE316C500DC6E76 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31326EC02AE316C500DC6E76 /* Constants.swift */; };
+		31326EC32AE3CF4700DC6E76 /* DubuBubuSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31326EC22AE3CF4700DC6E76 /* DubuBubuSelection.swift */; };
+		31326EC52AE3F21700DC6E76 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31326EC42AE3F21700DC6E76 /* Requests.swift */; };
+		31EF629F2AE421990032B9C3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EF629E2AE421990032B9C3 /* Extensions.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3108009B2ADFD73100853B26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3108006B2ADFD62000853B26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 310800872ADFD72E00853B26;
+			remoteInfo = DuduBubuWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		310800A12ADFD73100853B26 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3108009D2ADFD73100853B26 /* DuduBubuWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		310800732ADFD62000853B26 /* DuduBubu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuduBubu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +75,30 @@
 		310800782ADFD62000853B26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3108007A2ADFD62200853B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3108007D2ADFD62200853B26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		310800882ADFD72E00853B26 /* DuduBubuWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DuduBubuWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3108008A2ADFD72E00853B26 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		3108008C2ADFD72E00853B26 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		3108008F2ADFD72E00853B26 /* DuduBubuWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuduBubuWidgetBundle.swift; sourceTree = "<group>"; };
+		310800912ADFD72E00853B26 /* DuduBubuWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuduBubuWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		310800932ADFD72E00853B26 /* DuduBubuWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuduBubuWidget.swift; sourceTree = "<group>"; };
+		310800952ADFD72F00853B26 /* DuduBubuWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = DuduBubuWidget.intentdefinition; sourceTree = "<group>"; };
+		310800962ADFD73100853B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		310800982ADFD73100853B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310800A22ADFDD9900853B26 /* ImageSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlider.swift; sourceTree = "<group>"; };
+		310800A42ADFDF2100853B26 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		310800A62ADFDF3200853B26 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		310800A82ADFE67800853B26 /* DuduBubu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DuduBubu.entitlements; sourceTree = "<group>"; };
+		310800A92ADFE6A400853B26 /* DuduBubuWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DuduBubuWidgetExtension.entitlements; sourceTree = "<group>"; };
+		310800AA2AE00BBC00853B26 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		310800AC2AE279F500853B26 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		310800C42AE2814700853B26 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		310800C72AE281DB00853B26 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		310800CA2AE288F900853B26 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		31326EBE2AE30D5F00DC6E76 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		31326EC02AE316C500DC6E76 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		31326EC22AE3CF4700DC6E76 /* DubuBubuSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubuBubuSelection.swift; sourceTree = "<group>"; };
+		31326EC42AE3F21700DC6E76 /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		31EF629E2AE421990032B9C3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +106,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				310800C02AE27D6100853B26 /* FirebaseMessaging in Frameworks */,
+				310800B42AE27D6100853B26 /* FirebaseAnalyticsSwift in Frameworks */,
+				310800C22AE27D6100853B26 /* FirebaseStorage in Frameworks */,
+				310800BE2AE27D6100853B26 /* FirebaseFunctions in Frameworks */,
+				310800B62AE27D6100853B26 /* FirebaseAuth in Frameworks */,
+				310800B82AE27D6100853B26 /* FirebaseDatabase in Frameworks */,
+				310800BA2AE27D6100853B26 /* FirebaseFirestore in Frameworks */,
+				310800B22AE27D6100853B26 /* FirebaseAnalytics in Frameworks */,
+				310800BC2AE27D6100853B26 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310800852ADFD72E00853B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3108008D2ADFD72E00853B26 /* SwiftUI.framework in Frameworks */,
+				3108008B2ADFD72E00853B26 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,7 +133,10 @@
 		3108006A2ADFD62000853B26 = {
 			isa = PBXGroup;
 			children = (
+				310800A92ADFE6A400853B26 /* DuduBubuWidgetExtension.entitlements */,
 				310800752ADFD62000853B26 /* DuduBubu */,
+				3108008E2ADFD72E00853B26 /* DuduBubuWidget */,
+				310800892ADFD72E00853B26 /* Frameworks */,
 				310800742ADFD62000853B26 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				310800732ADFD62000853B26 /* DuduBubu.app */,
+				310800882ADFD72E00853B26 /* DuduBubuWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +153,17 @@
 		310800752ADFD62000853B26 /* DuduBubu */ = {
 			isa = PBXGroup;
 			children = (
+				310800C92AE288E600853B26 /* Views */,
+				310800C62AE281BE00853B26 /* Models */,
+				310800C32AE2811A00853B26 /* ViewModels */,
+				310800A82ADFE67800853B26 /* DuduBubu.entitlements */,
 				310800762ADFD62000853B26 /* DuduBubuApp.swift */,
+				31326EC02AE316C500DC6E76 /* Constants.swift */,
+				31EF629E2AE421990032B9C3 /* Extensions.swift */,
 				310800782ADFD62000853B26 /* ContentView.swift */,
+				310800A22ADFDD9900853B26 /* ImageSlider.swift */,
+				310800A42ADFDF2100853B26 /* SignUpView.swift */,
+				310800A62ADFDF3200853B26 /* LoginView.swift */,
 				3108007A2ADFD62200853B26 /* Assets.xcassets */,
 				3108007C2ADFD62200853B26 /* Preview Content */,
 			);
@@ -67,6 +178,57 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		310800892ADFD72E00853B26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3108008A2ADFD72E00853B26 /* WidgetKit.framework */,
+				3108008C2ADFD72E00853B26 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3108008E2ADFD72E00853B26 /* DuduBubuWidget */ = {
+			isa = PBXGroup;
+			children = (
+				3108008F2ADFD72E00853B26 /* DuduBubuWidgetBundle.swift */,
+				310800912ADFD72E00853B26 /* DuduBubuWidgetLiveActivity.swift */,
+				310800932ADFD72E00853B26 /* DuduBubuWidget.swift */,
+				310800AA2AE00BBC00853B26 /* DataService.swift */,
+				310800952ADFD72F00853B26 /* DuduBubuWidget.intentdefinition */,
+				310800962ADFD73100853B26 /* Assets.xcassets */,
+				310800982ADFD73100853B26 /* Info.plist */,
+				310800AC2AE279F500853B26 /* GoogleService-Info.plist */,
+			);
+			path = DuduBubuWidget;
+			sourceTree = "<group>";
+		};
+		310800C32AE2811A00853B26 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				310800C42AE2814700853B26 /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		310800C62AE281BE00853B26 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				310800C72AE281DB00853B26 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		310800C92AE288E600853B26 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				310800CA2AE288F900853B26 /* MainScreen.swift */,
+				31326EBE2AE30D5F00DC6E76 /* Settings.swift */,
+				31326EC22AE3CF4700DC6E76 /* DubuBubuSelection.swift */,
+				31326EC42AE3F21700DC6E76 /* Requests.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +239,45 @@
 				3108006F2ADFD62000853B26 /* Sources */,
 				310800702ADFD62000853B26 /* Frameworks */,
 				310800712ADFD62000853B26 /* Resources */,
+				310800A12ADFD73100853B26 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3108009C2ADFD73100853B26 /* PBXTargetDependency */,
+			);
+			name = DuduBubu;
+			packageProductDependencies = (
+				310800B12AE27D6100853B26 /* FirebaseAnalytics */,
+				310800B32AE27D6100853B26 /* FirebaseAnalyticsSwift */,
+				310800B52AE27D6100853B26 /* FirebaseAuth */,
+				310800B72AE27D6100853B26 /* FirebaseDatabase */,
+				310800B92AE27D6100853B26 /* FirebaseFirestore */,
+				310800BB2AE27D6100853B26 /* FirebaseFirestoreSwift */,
+				310800BD2AE27D6100853B26 /* FirebaseFunctions */,
+				310800BF2AE27D6100853B26 /* FirebaseMessaging */,
+				310800C12AE27D6100853B26 /* FirebaseStorage */,
+			);
+			productName = DuduBubu;
+			productReference = 310800732ADFD62000853B26 /* DuduBubu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		310800872ADFD72E00853B26 /* DuduBubuWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3108009E2ADFD73100853B26 /* Build configuration list for PBXNativeTarget "DuduBubuWidgetExtension" */;
+			buildPhases = (
+				310800842ADFD72E00853B26 /* Sources */,
+				310800852ADFD72E00853B26 /* Frameworks */,
+				310800862ADFD72E00853B26 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DuduBubu;
-			productName = DuduBubu;
-			productReference = 310800732ADFD62000853B26 /* DuduBubu.app */;
-			productType = "com.apple.product-type.application";
+			name = DuduBubuWidgetExtension;
+			productName = DuduBubuWidgetExtension;
+			productReference = 310800882ADFD72E00853B26 /* DuduBubuWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +292,9 @@
 					310800722ADFD62000853B26 = {
 						CreatedOnToolsVersion = 14.1;
 					};
+					310800872ADFD72E00853B26 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 				};
 			};
 			buildConfigurationList = 3108006E2ADFD62000853B26 /* Build configuration list for PBXProject "DuduBubu" */;
@@ -111,11 +306,15 @@
 				Base,
 			);
 			mainGroup = 3108006A2ADFD62000853B26;
+			packageReferences = (
+				310800B02AE27D6000853B26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 310800742ADFD62000853B26 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				310800722ADFD62000853B26 /* DuduBubu */,
+				310800872ADFD72E00853B26 /* DuduBubuWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +326,16 @@
 			files = (
 				3108007E2ADFD62200853B26 /* Preview Assets.xcassets in Resources */,
 				3108007B2ADFD62200853B26 /* Assets.xcassets in Resources */,
+				310800AD2AE279F500853B26 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310800862ADFD72E00853B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310800972ADFD73100853B26 /* Assets.xcassets in Resources */,
+				310800AE2AE279F500853B26 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +346,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				310800A72ADFDF3200853B26 /* LoginView.swift in Sources */,
+				31326EC12AE316C500DC6E76 /* Constants.swift in Sources */,
 				310800792ADFD62000853B26 /* ContentView.swift in Sources */,
+				310800A52ADFDF2100853B26 /* SignUpView.swift in Sources */,
+				31326EC52AE3F21700DC6E76 /* Requests.swift in Sources */,
+				310800C52AE2814800853B26 /* AuthViewModel.swift in Sources */,
+				31326EBF2AE30D5F00DC6E76 /* Settings.swift in Sources */,
+				310800C82AE281DB00853B26 /* User.swift in Sources */,
 				310800772ADFD62000853B26 /* DuduBubuApp.swift in Sources */,
+				310800CB2AE288F900853B26 /* MainScreen.swift in Sources */,
+				310800A32ADFDD9900853B26 /* ImageSlider.swift in Sources */,
+				31326EC32AE3CF4700DC6E76 /* DubuBubuSelection.swift in Sources */,
+				3108009A2ADFD73100853B26 /* DuduBubuWidget.intentdefinition in Sources */,
+				31EF629F2AE421990032B9C3 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310800842ADFD72E00853B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310800992ADFD73100853B26 /* DuduBubuWidget.intentdefinition in Sources */,
+				310800922ADFD72E00853B26 /* DuduBubuWidgetLiveActivity.swift in Sources */,
+				310800902ADFD72E00853B26 /* DuduBubuWidgetBundle.swift in Sources */,
+				310800942ADFD72E00853B26 /* DuduBubuWidget.swift in Sources */,
+				310800AB2AE00BBC00853B26 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3108009C2ADFD73100853B26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 310800872ADFD72E00853B26 /* DuduBubuWidgetExtension */;
+			targetProxy = 3108009B2ADFD73100853B26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3108007F2ADFD62200853B26 /* Debug */ = {
@@ -262,8 +503,10 @@
 		310800822ADFD62200853B26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DuduBubu/DuduBubu.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DuduBubu/Preview Content\"";
@@ -291,8 +534,10 @@
 		310800832ADFD62200853B26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DuduBubu/DuduBubu.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DuduBubu/Preview Content\"";
@@ -311,6 +556,62 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.johnmccants.DuduBubu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3108009F2ADFD73100853B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DuduBubuWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6V29A8HUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DuduBubuWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DuduBubuWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnmccants.DuduBubu.DuduBubuWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		310800A02ADFD73100853B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = DuduBubuWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6V29A8HUW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DuduBubuWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DuduBubuWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnmccants.DuduBubu.DuduBubuWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,7 +639,75 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3108009E2ADFD73100853B26 /* Build configuration list for PBXNativeTarget "DuduBubuWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3108009F2ADFD73100853B26 /* Debug */,
+				310800A02ADFD73100853B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		310800B02AE27D6000853B26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		310800B12AE27D6100853B26 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 310800B02AE27D6000853B26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		310800B32AE27D6100853B26 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 310800B02AE27D6000853B26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		310800B52AE27D6100853B26 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 310800B02AE27D6000853B26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		310800B72AE27D6100853B26 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 310800B02AE27D6000853B26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		310800B92AE27D6100853B26 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 310800B02AE27D6000853B26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		310800BB2AE27D6100853B26 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 310800B02AE27D6000853B26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		310800BD2AE27D6100853B26 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 310800B02AE27D6000853B26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		310800BF2AE27D6100853B26 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 310800B02AE27D6000853B26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		310800C12AE27D6100853B26 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 310800B02AE27D6000853B26 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3108006B2ADFD62000853B26 /* Project object */;
 }
